@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.97" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login Fuctionality" name="Successfull Login with Valid Credentials" time="14.831">
+<system-out><![CDATA[
+Given User Launch browser...................................................passed
+When User Opens Url "https://admin-demo.nopcommerce.com/login"..............passed
+And User enters Email as "admin@yourstore.com", Password as "admin" and Clicks on Login button.passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on Logout button............................................passed
+Then Page Title "Your store. Login".........................................passed
+And Close Chrome browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
